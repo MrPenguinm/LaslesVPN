@@ -1,0 +1,27 @@
+{
+  "name": "bookmark-manager",
+  "version": "1.0.0",
+  "description": "A Simple Landing Page for LaslesVPN built with HTML, Tailwind CSS, and JS.",
+  "main": "docs/app.js",
+  "scripts": {
+    "build": "tailwindcss -i ./docs/input.css -o ./docs/output.css",
+    "watch": "tailwindcss -i ./docs/input.css -o ./docs/output.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "bookmark",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Mohamed Mahmoud Ibrahim",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not < 0.2%"
+  ]
+}
